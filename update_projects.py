@@ -12,7 +12,7 @@ SEARCH_MODE = 'TOPICS'
 
 # --- Search Terms ---
 # For 'TOPICS' mode, provide a list of topics.
-SEARCH_TOPICS = ["r01ca230551"]
+SEARCH_TOPICS = ["u24ca289073"]
 
 # For 'ORG' mode, provide the organization's name.
 SEARCH_ORG = "exampleorg"

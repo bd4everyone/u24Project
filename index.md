@@ -9,55 +9,6 @@ This site automatically tracks a curated list of GitHub projects and their recen
 * **[Recent Commits](./commit-log.html)**: A blog-style feed of the latest commits from all listed projects.
 
 ## Abstract
-
-Abstract Dysbiosis of the host microbiome is now recognized as a
-hallmark of cancer and a factor in the systemic response to
-immunotherapy. While a large volume of literature and data resources
-on microbiome research are available, systemic comparison and analysis
-are limited due to the heterogeneity in data and reporting schema. To
-enable rapid and cost-effective elucidation of the roles of
-microorganisms in the etiology and progression of cancer, we have
-developed high-quality harmonized databases of public microbiome data
-and microbial signatures. This proposal expands and creates new
-features of these microbiome databases through four aims. First, it
-will enhance the analytic scope of BugSigDB, a Semantic Mediawiki for
-manual curation and review of microbial signatures by incorporating
-microbial physiologies and morphologies, predicted metabolic
-functions, automatic identification of similar signatures, and
-creation of user-friendly Bug Set Enrichment Analysis
-workflows. Second, it will establish the next generation of
-curatedMetagenomicData, a microbiome database of large-scale manual
-curation and uniformly processed shotgun sequencing data, supporting
-FAIR principles. We will create a federated, ontology-based curation
-system and distributed computing metagenomic profiling workflow, both
-applicable to all Sequence Read Archive (SRA) records. Third, it will
-expand curatedMetagenomicData and BugSigDB with data from thousands of
-published studies and perform meta-analyses using these
-resources. Lastly, we will mobilize hundreds of data curators from
-diverse backgrounds by participating in established internship
-programs and mobilize the microbiome research community to adopt
-reporting standards for publication. This contribution is significant
-because it increases the likelihood of developing effective public
-health interventions to prevent and detect microbiota-linked cancers
-by providing methods for improved mechanistic interpretation of
-microbiome studies, extracting new information from published raw
-metagenomic shotgun sequencing data and metadata, and enabling re-use
-of existing data by a much broader range of researchers and
-methodologies. The proposed research is innovative because it
-identifies and corrects important deficiencies in how microbiome data
-are published, increasing the utility of public data and published
-results on a large scale by other research teams.
-
+This proposal develops scalable R / Bioconductor software infrastructure and data resources to integrate complex, heterogeneous, and large cancer genomic experiments. The falling cost of genomic assays facilitates collection of multiple data types (e.g., gene and transcript expression, structural variation, copy number, methylation, and microRNA data) from a set of clinical specimens. Furthermore, substantial resources are now available from large consortium activities like The Cancer Genome Atlas (TCGA). Existing analysis pipelines focus on the treatment of a specific data type, leaving a critical need for tools for integrative analysis of multiple genomic assays for locally generated or publicly available data. R / Bioconductor has historically provided standardized genomic data structures and annotations that have enjoyed widespread adoption in the cancer genomics research community. This proposal adapts R / Bioconductor to meet the increasing conceptual and computational complexity of multi-assay cancer genomic experiments. We begin by developing software containers for coordinated representation, manipulation, and transformation of heterogeneous derived data from multiple cancer genomic assays. These containers are then extended to manage very large primary data resources. To facilitate integration of local experimental results with major public cancer genomics experiment data sets and annotations, we re-package public resources and provide software and cloud-based facilities for easy and fast programmatic access from within R/Bioconductor. This greatly simplifies cancer genomic analysis tasks that otherwise require significant, error-prone individual efforts. Finally, we provide software infrastructure to enable high-throughput computation using parallel and iterative approaches. The ability to manipulate multi-assay cancer genomic experiments, to understand individual experimental results in the context of public experiments and annotations, and facilities for improved high-throughput computational performance in a well-established computing environment greatly enhances opportunities for analysis and comprehension of large multi-assay cancer genomic experiments.
 ## Public Health Relevance
-
-The human microbiome is implicated in the development and response to
-treatment of some cancers, including infectious agents estimated to be
-responsible for ~20% of the global cancer burden. However, previously
-unrecognized bacterial and viral strains, as well as loss of normal
-structure and function of human-associated microbiomes, likely play
-additional roles in disease etiology and treatment. This project
-investigates the role of the human microbiome in cancer by applying
-novel and state-of-the-art methods to published metagenomic data, and
-provides enhanced, expanded, and more efficiently usable microbiome
-data resources back to the cancer research community for a broad range
-of investigations.
+Cancer is a leading cause of morbidity and mortality worldwide, with complex genetic factors playing a critical role in both its development and response to treatment. This project aims to enhance public health by developing and sustaining essential software and data resources that support cancer researchers in managing and analyzing large-scale genetic data. By leveraging advanced computational and statistical techniques, the project will improve our understanding of cancer's genetic underpinnings, ultimately contributing to more effective prevention, diagnosis, and treatment strategies that can be applied at the population level.
