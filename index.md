@@ -1,4 +1,4 @@
-# Bridge gaps between R/Biocondcutor and Python, to advance cancer research through the analysis of large gigapixel WSIs depicting rich spatial and morphological information.
+# Bridge the gap between R/Bioconductor and Python to accelerate cancer research by analyzing large-scale gigapixel whole slide images (WSIs), which provide rich spatial and morphological insights..
 
 
 This site automatically tracks a curated list of GitHub projects and their recent development activity.
